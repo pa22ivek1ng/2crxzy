@@ -1,0 +1,82 @@
+{
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "baobun docs",
+    "description": "documentation for 2crxzy",
+    "colors": {
+        "primary": "#e57a9e",
+        "light": "#f7c0d0",
+        "dark": "#d44d76"
+    },
+    "seo": {
+        "metatags": {
+            "theme-color": "#e3c2cd",
+            "og:site_name": "2crxzy.dev"
+        }
+    },
+    "navigation": {
+        "groups": [
+            {
+                "group": "Overview",
+                "pages": [
+                    "introduction"
+                ]
+            },
+            {
+                "group": "Server Configuration",
+                "pages": [
+                    "config/responders",
+                    {
+                        "group": "Giveaways",
+                        "icon": "party-horn",
+                        "pages": ["config/giveaway/managment", "config/giveaway/configuration", "config/giveaway/presets"]
+                    },
+
+                    {
+                        "group": "Guild",
+                        "icon": "house",
+                        "pages": ["config/guild/pingonjoin", "config/guild/dmonjoin"]
+                    }
+                ]
+            },
+            {
+                "group": "Server Commands",
+                "pages": [
+                    {
+                        "group": "Moderation",
+                        "icon": "lock",
+                        "pages": ["features/moderation/purge", "features/moderation/massban"]
+                    },
+                    "features/afk",
+                    "features/timediff",
+                    "features/channels",
+                    "features/downloader"
+                ]
+            },
+            {
+                "group": "Resources",
+                "pages": [
+                    "resources/message_id",
+                    "resources/syntax",
+                    "resources/variables",
+                    "resources/embed_layout"
+                ]
+            }
+        ]
+    },
+    "favicon": "favicon.png",
+    "navbar": {
+        "links": [
+            {
+                "label": "Support Server",
+                "href": "https://discord.gg/AnSfF2tTEg"
+            }
+        ]
+    },
+    "footer": {
+        "socials": {
+            "discord": "https://discord.gg/AnSfF2tTEg",
+            "github": "https://github.com/bao-bun"
+        }
+    }
+}
